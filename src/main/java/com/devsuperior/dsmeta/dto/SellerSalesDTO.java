@@ -1,19 +1,19 @@
 package com.devsuperior.dsmeta.dto;
 
 public class SellerSalesDTO {
-    private String name;
-    private Double totalSales;
+    private String sellerName;
+    private Double total;
 
-    public SellerSalesDTO(String name, Double totalSales){
-        this.name = name;
-        this.totalSales = totalSales;
+    public SellerSalesDTO(String sellerName, Double total){
+        this.sellerName = sellerName;
+        this.total = total;
     }
 
-    public String getName() {
-        return name;
+    public String getSellerName() {
+        return sellerName;
     }
 
-    public Double getAmount() {
-        return totalSales;
+    public Double getTotal() {
+        return total;
     }
 }
